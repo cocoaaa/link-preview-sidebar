@@ -19,7 +19,7 @@ browser.runtime.onMessage.addListener(
 window.addEventListener(
 	'click',
 	logErrors(async event => {
-		if (event.altKey && event.target instanceof HTMLAnchorElement && event.target.href) {
+		if (event.altKey && event.shiftKey && event.target instanceof HTMLAnchorElement && event.target.href) {
 			event.preventDefault()
 			const linkUrl = new URL(event.target.href)
 			const message: AllowIframeMessage = {

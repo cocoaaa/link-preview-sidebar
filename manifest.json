@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "Link Preview Sidebar",
+	"name": "Link Preview Sidebar (cocoaaa) ",
 	"description": "Preview links in a sidebar instead of a new tab.",
 	"version": "0.0.0",
 	"permissions": ["contextMenus", "webRequest", "webRequestBlocking", "tabs", "<all_urls>"],
